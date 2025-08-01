@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the model
-with open('assignment2/house_price_model.pkl', 'rb') as file:
+with open('assignment2/house_price_model1.pkl', 'rb') as file:
     model, features = pickle.load(file)
 
 st.title("🏠 House Price Predictor")
